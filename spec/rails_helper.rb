@@ -30,7 +30,7 @@ RSpec.configure do |config|
 end
 
 Dox.configure do |config|
-  config.header_description = Rails.root.join('spec/docs/v1/descriptions/header.md')
-  config.descriptions_location = Rails.root.join('spec/docs/v1/descriptions')
+  # config.header_description = Rails.root.join('spec/docs/v1/descriptions/header.md').to_s
+  # config.descriptions_location = Rails.root.join('spec/docs/v1/descriptions').to_s
   config.headers_whitelist = ['Accept', 'X-Auth-Token']
 end
